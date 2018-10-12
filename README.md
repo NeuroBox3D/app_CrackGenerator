@@ -14,3 +14,7 @@ the lattice constant and *h* is a parameter to fine tune the element size, e.g. 
 
 ### Test complex crack (BuildComplexCrack)
 `ugshell -call BuildComplexCrack\(\);`
+
+# Exemplary mesh
+![Exemplary mesh](/images/example.png)
+
