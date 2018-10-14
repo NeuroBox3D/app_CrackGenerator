@@ -3,10 +3,10 @@ The CrackGenerator ug4 app which uses the CrackGenerator ug4 plugin found [here]
 
 # How to run the CrackGenerator
 ## With default arguments (BuildSimpleCrack)
-`ugshell build_crack.lua`
+`ugshell -ex build_crack.lua`
 
 ## With specified arguments (BuildSimpleCrack)
-`ugshell build_crack.lua -width 2 -height 2 -depth 2 -spacing 1 -thickness 1 -h 1 -r_0 0.5`
+`ugshell -ex build_crack.lua -width 2 -height 2 -depth 2 -spacing 1 -thickness 1 -h 1 -r_0 0.5`
 
 Parameters are *width*, *depth* and *height* which are self-explanatory. *Spacing* is the distance between the two bridging domain.
 The space between the two briding domains is the MD domain. *Thickness* describes the height of the bridging domains, *r_0* is 
