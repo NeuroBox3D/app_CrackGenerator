@@ -4,10 +4,10 @@
 --]]
 
 -- main ug script utils
-ug_load_script("ug_util.lua")
+-- ug_load_script("ug_util.lua")
 
 -- assert plugin available in ug
-AssertPluginsLoaded({"CrackGenerator"})
+-- AssertPluginsLoaded({"CrackGenerator"})
 
 -- parameters for crack generator
 width      = util.GetParamNumber("-width", 2)
